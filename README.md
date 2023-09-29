@@ -76,7 +76,7 @@ Your task is to complete following steps:
 
 In this portion of the assignment you will implement an ngram language model
 that should work with any value of n. You will add your code to `ngram.py`. You
-have to implement XX functions. They are labeled with TODO in the file. A
+have to implement 9 functions. They are labeled with TODO in the file. A
 description of the function and samples of its use are given in the function
 docstring. **Please read the docstrings**. I have implemented some other
 functions that you may find useful! 
@@ -107,7 +107,7 @@ These both involve hyperparameters, `k` and $\lambda$. Your task is to try
 **three different** `k` values and **three different lists** of $\lambda$ with a trigram
 model. Your code should determine the best `k` and list of $\lambda$ from those
 you tried. I have provided three folders of data to facilitate this, labeled
-train\_data, eval\_data, test\_data. The file `vocab.txt` contains vocab that
+`train_data`, `eval_data`, `test_data`. The file `vocab.txt` contains vocab that
 will serve you well in this task. **You should use the appropriate data for
 the task**. The final output of your `tuning.py` should be a measure of your
 model's performance on the relevant data. 
