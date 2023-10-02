@@ -89,7 +89,7 @@ For example,
 
     python test.py --test ngrams
 
-will test your get\_ngrams function.
+will test your `get_ngrams` function.
 
 
 ## Part 2
@@ -127,7 +127,7 @@ negative or positive to imdb movie reviews using Naive Bayes Classification.
 
 #### Data
 
-You can find training and test data in the `sentiment\_data` folder. For both
+You can find training and test data in the `sentiment_data` folder. For both
 train and test data, positive (`pos`) and (`neg`) reviews are provided. In
 `sentiment_data\train\pos`, for example, you will find a bunch of txt files
 which include reviews like: 
