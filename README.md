@@ -189,3 +189,29 @@ Negative
 ```
 
 Good luck :) !
+
+## Appendix 
+
+### Trouble downloading `punkt`
+
+NLTK download doesn't always work. I have no idea why. The following is a
+workaround. 
+
+1. Make the relevant folders 
+
+```
+cd 
+mkdir nltk_data
+cd nltk_data && mkdir tokenizers
+```
+
+2. Download punkt and unzip
+
+```
+cd
+cd nltk_data/tokenizers
+curl https://raw.githubusercontent.com/nltk/nltk_data/gh-pages/packages/tokenizers/punkt.zip --output punkt.zip
+unzip punkt.zip
+```
+
+
