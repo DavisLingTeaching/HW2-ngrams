@@ -20,5 +20,5 @@ def testSurprisal():
 
     assert round(model.surprisal(('the', 'cat', 'is'), {}), 5) == 33.21928
     assert round(model.surprisal(('the', 'cat', 'is'), {'k': 1}), 5) == 11.24020
-    assert round(model.surprisal(('the', 'cat', 'was'), {'lambdas': [0.2, 0.2,
+    assert round(model.surprisal(('the', 'cat', 'was'), {'lambdas': [0.1, 0.1,
                                                                     0.8]}), 5) == 4.84549
